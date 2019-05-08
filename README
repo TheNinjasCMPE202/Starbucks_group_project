@@ -1,13 +1,13 @@
-### Backend: Java REST APIs.
+###  Back end: Java REST APIs.
 
         • Add Cards API - Implemented a REST API on top of the Starbucks Library to enable Adding Cards.
         • Manage Order API - Implemented a REST API on top of the Starbucks Library to Manage Orders.
         • Payment API - Implemented a REST API on top of the Starbucks Library to enable Payments.
         • Authentication API - Implemented a REST API on top of the Starbucks Library to manage user authentication.
         • Deployed the REST APIs to AWS EC2 and enabled Auto-scaling and load-balancing. 
+
         
 ### Frontend: Web application 
-
 
 Include all Diagrams, Design decisions and the overall Feature Set of the project
 
@@ -24,4 +24,3 @@ The Relative Relationship of how these components are Deployed
 Recommendation:  Use UML Deployment/Component Diagram Notation.
 http://agilemodeling.com/artifacts/deploymentDiagram.htm (Links to an external site.)Links to an external site.
 http://agilemodeling.com/artifacts/componentDiagram.htm (Links to an external site.)Links to an external site.
-
