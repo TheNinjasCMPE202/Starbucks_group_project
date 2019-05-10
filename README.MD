@@ -2,6 +2,6 @@
 
 ## Team Name: The Ninjas
 ### Team Memberbers: 
--JunTeng Tan
--Jia Ma
--Ying Liu 
+- JunTeng Tan
+- Jia Ma
+- Ying Liu 
