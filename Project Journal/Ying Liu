@@ -1,1 +1,26 @@
 
+Week 1
+
+Scrum
+* Worked on getting basic project structure which has cconfiguration, controller, model, repository modules
+* Set up MySQL database locally 
+* Set up Google project board, and wrote Scrum backlog items for the team
+* Started to worked on User API and integrated with local MySQL database
+
+XP Values
+* Team is very respectful and communicating frequently. WeChat is being used as a daily communication mechanism.
+* Since we are not colocated, we tried to gather together 3 times in a week after class hours. This really helps communicate and keep each updated. 
+
+Week 2
+
+Scrum
+* Worked on security and resolved issue 
+* Added API connection to the client application.
+* Helped team members to deploy client app on Heroku 
+* Fixed cars error 
+* Completed regression tests in the entire application, including the web and Postman API test tool
+* Completed Agile retrospect review with team memebers
+
+XP Values
+* Team worked together on JSON file for API export to Postment. Everyone has been delivering on schedule as discussed. 
+* Discovered that WeChat can share documents/screenshots via messaging. This facilities communication across team members. 
