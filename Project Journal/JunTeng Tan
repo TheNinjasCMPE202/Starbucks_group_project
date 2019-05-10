@@ -1,1 +1,25 @@
 
+Week 1
+
+Scrum
+* Worked on getting the environment ready for the project, downloaded boot spring Java package, MySQL etc. 
+* Worked on getting basic project structure in Github, which has configuration, controller, model, repository modules
+* Worked on basic Order API and integrated with MySQL 
+* Waiting on team members to complete their APIs to enable authentication.
+* Planning to work on Amazon EC2 deployment in the next Sprint. 
+
+XP Values
+* Team is very encouraging and provides valuable feedback. WeChat is being used as a communication mechanism. 
+* Team designed component diagram together. The discussion has been very informative, and progressed well.
+
+Week 2
+
+Scrum
+* Completed Order API and integrated it with MySQL.
+* Worked on Payment API and integrated with MySQL. 
+* Deploy API to AWS in an Auto Scaled EC2 Cluster with Load Balancer
+* Fixed https not displaying http content issue
+
+XP Values
+* Team is working collaboratively on JSON File export to Postman for API testing. Team work is efficient and pleasant. 
+* There has been no merge conflicts.
