@@ -1,1 +1,29 @@
-TBD
+Week 1
+
+Scrum
+1. Spent time on understanding Amazon EC2 setup
+2. Spent time on learning spring boot to write rest API
+3. Worked on setting up the project basic structure locally
+4. Started to implement the card API
+5. Will research about Google Map API in the next sprint
+
+
+XP Values
+1. Team’s communication channel was WeChat.
+2. All the team members were responding on time when ever required and communicated well.
+3. Team members were added as reviewers to the personal GitHub, so that everyone can courageously point out mistakes and let the person who worked on it know how it can be done better.
+
+Week 2
+
+Scrum
+1. Worked on Google Map API.
+2. Completed the payments API.
+3. Created a payment API that was independent of order API so that we are not blocked.
+4. Wrote Web application client codes 
+5. Deployed client application to Heroku.
+6. Fixed security bug: when making a call, the header setting needs to be adjusted 
+
+XP Values
+1. Team did not have any merge conflicts.
+2. Team helped each other when ever needed to complete the tasks on time.
+3. Team was very respectful and collaborative.
