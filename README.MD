@@ -5,3 +5,7 @@
 - JunTeng Tan
 - Jia Ma
 - Ying Liu 
+
+### Design Patterns Implemented
+- sprint boot backend: factory proxy
+- client web front end: state 
