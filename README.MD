@@ -11,7 +11,7 @@
 - client web front end: state 
 
 ### Database Diagram
-![Picture1](https://user-images.githubusercontent.com/6970475/57563897-a1c6fe00-7358-11e9-9e8c-e6c5b6dc3873.jpg)
+![Picture1](https://raw.githubusercontent.com/TheNinjasCMPE202/Starbucks_group_project/master/Component%20Diagram.png)
 
 ### Deployment Diagram
 ![Picture1](https://user-images.githubusercontent.com/6970475/57563859-164d6d00-7358-11e9-853e-5db22ba325db.jpg)
