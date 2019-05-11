@@ -1,6 +1,7 @@
 package com.sjsu.project.cmpe202.repository;
 
 import com.sjsu.project.cmpe202.model.CartItem;
+import com.sjsu.project.cmpe202.model.OrderItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

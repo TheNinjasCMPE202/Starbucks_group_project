@@ -20,7 +20,7 @@ public class UserController {
     @Autowired
     private CartRepository cartRepository;
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @ResponseBody
     @RequestMapping(
             value = "/user/get_user_by_user_id",
@@ -33,7 +33,7 @@ public class UserController {
         return new ResponseEntity<>(userRepository.findUserById(user.get("user_id")), HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @ResponseBody
     @RequestMapping(
             value = "/user/get_user_by_username",
@@ -46,7 +46,7 @@ public class UserController {
         return new ResponseEntity<>(userRepository.findUserByUsername(user.get("username")), HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @ResponseBody
     @RequestMapping(
             value = "/user/add_new_user",
@@ -80,7 +80,7 @@ public class UserController {
         return new ResponseEntity<>("Add New user Successfully", HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @ResponseBody
     @RequestMapping(
             value = "/user/update_user_by_username",
@@ -103,7 +103,7 @@ public class UserController {
         return new ResponseEntity<>("Update User Successfully", HttpStatus.OK);
     }
 
-//    @CrossOrigin(origins = "http://localhost:8080")
+//    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
 //    @ResponseBody
 //    @RequestMapping(
 //            value = "/user/update_user_by_user_id",
@@ -127,7 +127,7 @@ public class UserController {
 //        return new ResponseEntity<>("Update User Successfully", HttpStatus.OK);
 //    }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @ResponseBody
     @RequestMapping(
             value = "/user/delete_user_by_user_id",
@@ -141,7 +141,7 @@ public class UserController {
         return new ResponseEntity<>("Delete User Successfully", HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @ResponseBody
     @RequestMapping(
             value = "/user/delete_user_by_username",
@@ -156,7 +156,7 @@ public class UserController {
         return new ResponseEntity<>("Delete User Successfully", HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @ResponseBody
     @RequestMapping(
             value = "/user/get_all_users",

@@ -19,7 +19,7 @@ public class ItemController {
     @Autowired
     private ItemRepository itemRepository;
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/item/get_all_items",
             method = RequestMethod.GET,
@@ -28,7 +28,7 @@ public class ItemController {
         return new ResponseEntity<>(itemRepository.findAll(), HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/item/add_new_item",
             method = RequestMethod.POST,
@@ -47,7 +47,7 @@ public class ItemController {
         return new ResponseEntity<>("Add New Item successfully", HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/item/delete_item_by_item_id",
             method = RequestMethod.DELETE,

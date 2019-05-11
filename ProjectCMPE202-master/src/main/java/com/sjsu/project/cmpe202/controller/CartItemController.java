@@ -29,7 +29,7 @@ public class CartItemController {
     @Autowired
     private ItemRepository itemRepository;
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/order/get_cart_item_by_username",
             method = RequestMethod.POST,
@@ -41,7 +41,7 @@ public class CartItemController {
         return new ResponseEntity<>(cartItemRepository.findCartItemsByCart(id), HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/order/add_cart_item_by_username",
             method = RequestMethod.POST,

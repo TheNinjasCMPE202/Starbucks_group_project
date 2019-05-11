@@ -29,7 +29,7 @@ public class OrderItemController {
     @Autowired
     private OrderRepository orderRepository;
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/order/add_order_item_by_username",
             method = RequestMethod.POST,
@@ -55,7 +55,7 @@ public class OrderItemController {
         return new ResponseEntity<>("Add new OrderItem successfully", HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/order/get_order_items_by_username",
             method = RequestMethod.POST,

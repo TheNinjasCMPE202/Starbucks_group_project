@@ -26,7 +26,7 @@ public class PaymentController {
     @Autowired
     private CardRepository cardRepository;
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/payment/get_payments_by_user_id",
             method = RequestMethod.POST,
@@ -37,7 +37,7 @@ public class PaymentController {
         return new ResponseEntity<>(paymentRepository.findPaymentsByUser(user.get("user_id")), HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/payment/get_payments_by_username",
             method = RequestMethod.POST,
@@ -49,7 +49,7 @@ public class PaymentController {
         return new ResponseEntity<>(paymentRepository.findPaymentsByUser(id), HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/payment/get_payments_by_card_id",
             method = RequestMethod.POST,
@@ -60,7 +60,7 @@ public class PaymentController {
         return new ResponseEntity<>(paymentRepository.findPaymentsByCard(card.get("card_id")), HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/payment/get_payments_by_card_number",
             method = RequestMethod.POST,
@@ -72,7 +72,7 @@ public class PaymentController {
         return new ResponseEntity<>(paymentRepository.findPaymentsByCard(cardId), HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/payment/get_payment_by_payment_id",
             method = RequestMethod.POST,
@@ -83,7 +83,7 @@ public class PaymentController {
         return new ResponseEntity<>(paymentRepository.findPaymentById(payment.get("payment_id")), HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/payment/add_new_payment",
             method = RequestMethod.POST,
@@ -111,7 +111,7 @@ public class PaymentController {
         return new ResponseEntity<>("Create new Payment Successfully", HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/payment/get_all_payments",
             method = RequestMethod.GET,

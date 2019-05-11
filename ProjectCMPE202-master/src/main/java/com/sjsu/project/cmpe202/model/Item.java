@@ -1,6 +1,8 @@
 package com.sjsu.project.cmpe202.model;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "items")

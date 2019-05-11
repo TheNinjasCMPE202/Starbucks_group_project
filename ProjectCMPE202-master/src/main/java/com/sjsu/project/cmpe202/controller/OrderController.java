@@ -32,7 +32,7 @@ public class OrderController {
     @Autowired
     private CartRepository cartRepository;
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/order/get_orders_by_user_id",
             method = RequestMethod.POST,
@@ -43,7 +43,7 @@ public class OrderController {
         return new ResponseEntity<>(orderRepository.findOrdersByUser(user.get("user_id")), HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/order/get_orders_by_username",
             method = RequestMethod.POST,
@@ -55,7 +55,7 @@ public class OrderController {
         return new ResponseEntity<>(orderRepository.findOrdersByUser(id), HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/order/add_new_order_by_username",
             method = RequestMethod.POST,
@@ -81,7 +81,7 @@ public class OrderController {
         return new ResponseEntity<>("Add new Order Successfully", HttpStatus.OK);
     }
 
-    @CrossOrigin(origins = "http://localhost:8080")
+    @CrossOrigin(origins = {"http://localhost:8080", "https://starbucks-web.herokuapp.com", "https://starbucks-web-map.herokuapp.com"})
     @RequestMapping(
             value = "/order/delete_order_by_username",
             method = RequestMethod.POST,
