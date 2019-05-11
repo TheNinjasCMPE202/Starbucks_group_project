@@ -17,13 +17,14 @@
 ![Picture1](https://user-images.githubusercontent.com/6970475/57563859-164d6d00-7358-11e9-853e-5db22ba325db.jpg)
 
 ### UI Wireframes
-![](https://raw.githubusercontent.com/TheNinjasCMPE202/Starbucks_group_project/master/UI%20Wireframes/11557508875_.pic.jpg?token=ABVFY25JN6B4HO2KBMTK2U242YZGG)
+![](https://raw.githubusercontent.com/TheNinjasCMPE202/Starbucks_group_project/master/UI%20Wireframes/11557508875_.pic.jpg?token=ABVFY27J53XPYWFXDST33XS42Y2GA)
 
 ### Login Screen UI Wireframe.png
-![](https://raw.githubusercontent.com/TheNinjasCMPE202/Starbucks_group_project/master/UI%20Wireframes/Login%20Screen%20UI%20Wireframe.png?token=ABVFY2ZVNLGCOR3CKIB6UNS42YZLU)
+<img width="1026" alt="Screen Shot 2019-05-10 at 7 15 40 PM" src="https://raw.githubusercontent.com/TheNinjasCMPE202/Starbucks_group_project/master/UI%20Wireframes/Login%20Screen%20UI%20Wireframe.png?token=ABVFY25RHAXOYKHIFGHNUT242Y2JU">
 
 ### Sprint Task Sheet
-<img width="1026" alt="Screen Shot 2019-05-10 at 7 15 40 PM" src="https://user-images.githubusercontent.com/6970475/57563959-71cc2a80-7359-11e9-9eb3-91fe31f422c9.png">
+<img width="1026" alt="Screen Shot 2019-05-10 at 7 15 40 PM" src="https://user-images.githubusercontent.com/6970475/57564049-adb3bf80-735a-11e9-911c-6d35fff2a0e1.png">
+
 
 ### Burndown Chart
 <img width="799" alt="Screen Shot 2019-05-10 at 7 15 02 PM" src="https://user-images.githubusercontent.com/6970475/57563974-bb1c7a00-7359-11e9-8abd-882a692c8853.png">
