@@ -5,7 +5,7 @@
 - JunTeng Tan
 - Jia Ma
 - Ying Liu 
-
+https://github.com/TheNinjasCMPE202/Starbucks_group_project/blob/master/TeamMembersContribution.md
 ### Design Patterns 
 - sprint boot backend: factory proxy
 - client web front end: state 
